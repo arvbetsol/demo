@@ -5,7 +5,7 @@ docker rmi webserver:latest
 docker build
 
 echo "Build application"
-docker build . -t webserver
+docker build -t webserver .
 
 sleep 20
 

@@ -5,7 +5,7 @@ pipeline {
 	stages {
 	    stage('Build and Deploy Application' ) {
 		steps {
-			// Run build script
+			// Run build scripts
 			sh "./deployment/build.sh"
 		}
 	     }
